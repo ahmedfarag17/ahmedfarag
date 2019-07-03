@@ -297,19 +297,19 @@ margin-top: -60px;
 
 .roleTitle{
   display: inline;
-    width: 50vw;
-    float: right;
+      width: 50vw;
+      float: left;
 }
 
 .role p{
   /* display: inline; */
-padding-left: 10%;
-text-align: center;
-width: 50vw;
-font-size: 2.4vw;
-float: left;
-/* padding-top: 30vh; */
-/* padding-bottom: 50vh; */
+  /* padding-left: 10%; */
+  text-align: center;
+  width: 50vw;
+  font-size: 2.4vw;
+  float: right;
+  /* padding-top: 30vh; */
+  /* padding-bottom: 50vh; */
 }
 
 /*------------
@@ -490,6 +490,31 @@ ul.social-icons {
 
     margin-top: -20px;
 
+}
+
+.roleTitle{
+  display: inline;
+      width: 100%;
+      float: left;
+      height: 30vh;
+}
+
+.role p{
+  /* display: inline; */
+  /* padding-left: 10%; */
+  text-align: center;
+  width: 100%;
+    font-size: 1.7rem;
+      float: right;
+  /* padding-top: 30vh; */
+  /* padding-bottom: 50vh; */
+}
+
+.role h2{
+      font-size: 3rem;
+}
+.role h1{
+      font-size: 5rem;
 }
 
 }
