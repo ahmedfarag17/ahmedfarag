@@ -483,8 +483,8 @@ ul.social-icons {
   }
 
   .diagnolSection h1 {
-    padding-left: 50vw;
-    font-size: 4rem;
+    padding-left: 50vw !important;
+    font-size: 4rem !important;
   }
 
   #oval1, #oval2 {
