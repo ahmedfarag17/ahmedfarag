@@ -123,6 +123,7 @@ nav{
   background-size: cover;
   background-image: url("ahmedMosque.jpg");
   background-attachment: scroll;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
