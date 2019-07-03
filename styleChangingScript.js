@@ -1,4 +1,5 @@
 var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
 window.addEventListener('scroll', function (e){
   var scrolled = window.pageYOffset;
@@ -14,7 +15,7 @@ window.addEventListener('scroll', function (e){
 
   var width = document.getElementById("oval2").style.width;
 
-  if(scrolled>2500){
+  if(scrolled>2500 && w > 500){
     // document.getElementById("oval1").style.marginTop = -(scrolled*0.2)+510+'px';
     document.getElementById("oval1").style.marginLeft = -(scrolled*0.1)+'px';
     // document.getElementById("oval2").style.marginTop = -(scrolled*0.2)+510+'px';
