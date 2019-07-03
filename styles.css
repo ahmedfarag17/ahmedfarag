@@ -122,11 +122,13 @@ nav{
   height: 70vh;
   background-size: cover;
   background-image: url("ahmedMosque.jpg");
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
 }
+
+
 
 .aboutMe h1{
   width: 100vw;
@@ -228,7 +230,7 @@ font-size: 1.5vw;
 
 
 .end{
-  background: url("city.jpg") no-repeat center center fixed;
+  background: url("city.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
