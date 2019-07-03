@@ -461,15 +461,25 @@ ul.social-icons {
 @media only screen and (max-width: 500px) {
 
   .gj video{
-    display: none;
+    display: block;
+    width: 100%;
+  }
+
+  .gj{
+    display: block;
   }
 
   .s1{
           font-size: 3vw;
   }
 
+  .p1{
+    width: 100%;
+  }
+
   .carousel-inner div .gj .tcc{
-    display: none;
+    display: block;
+    width: 100%;
   }
 
   .diagnolSection h1 {
